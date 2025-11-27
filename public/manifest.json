@@ -1,0 +1,15 @@
+{
+  "name": "SHM ROFL Sound Analysis",
+  "short_name": "SHM ROFL Sound Analysis",
+  "start_url": "/SHM_SA/",
+  "scope": "/SHM_SA/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/SHM_SA/favicon.svg",
+      "sizes": "512x512"
+    }
+  ]
+}

@@ -1,3 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = "https://medvedku.github.io/SHM_SA/"
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = "SHM ROFL Sound Analysis"
+theme = "book"
