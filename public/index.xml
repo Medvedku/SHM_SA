@@ -1,12 +1,103 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>SHM Swag Analysis on SHM ROFL Sound Analysis</title>
+    <title>SHM Swag Analysis up 18:25 on SHM Data</title>
     <link>http://localhost:1313/SHM_SA/</link>
-    <description>Recent content in SHM Swag Analysis on SHM ROFL Sound Analysis</description>
+    <description>Recent content in SHM Swag Analysis up 18:25 on SHM Data</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/SHM_SA/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Convert to Parquet</title>
+      <link>http://localhost:1313/SHM_SA/duckdb/convert/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/SHM_SA/duckdb/convert/</guid>
+      <description>&lt;p&gt;Converting Mongo JSON/BSON to Parquet.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dataset Structure</title>
+      <link>http://localhost:1313/SHM_SA/datasets/structure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/SHM_SA/datasets/structure/</guid>
+      <description>&lt;p&gt;Overview of monthly dataset contents.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Exporting Data</title>
+      <link>http://localhost:1313/SHM_SA/mongodb/export/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/SHM_SA/mongodb/export/</guid>
+      <description>&lt;p&gt;How to export data from MongoDB.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Spectrograms</title>
+      <link>http://localhost:1313/SHM_SA/examples/spectrograms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/SHM_SA/examples/spectrograms/</guid>
+      <description>&lt;p&gt;Plotting spectrograms from signals.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What is SHM?</title>
+      <link>http://localhost:1313/SHM_SA/introduction/what-is-shm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/SHM_SA/introduction/what-is-shm/</guid>
+      <description>&lt;p&gt;Basics of Structural Health Monitoring.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Windows Setup</title>
+      <link>http://localhost:1313/SHM_SA/setup/windows/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/SHM_SA/setup/windows/</guid>
+      <description>&lt;p&gt;Instructions for Windows environment.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Monthly Overview</title>
+      <link>http://localhost:1313/SHM_SA/datasets/monthly-overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/SHM_SA/datasets/monthly-overview/</guid>
+      <description>&lt;p&gt;How data changes month-to-month.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Project Overview</title>
+      <link>http://localhost:1313/SHM_SA/introduction/project-overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/SHM_SA/introduction/project-overview/</guid>
+      <description>&lt;p&gt;Overview of the SHM–Mongo–DuckDB project.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Query Parquet</title>
+      <link>http://localhost:1313/SHM_SA/duckdb/query-parquet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/SHM_SA/duckdb/query-parquet/</guid>
+      <description>&lt;p&gt;Querying Parquet files with DuckDB.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Querying Data</title>
+      <link>http://localhost:1313/SHM_SA/mongodb/query/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/SHM_SA/mongodb/query/</guid>
+      <description>&lt;p&gt;Query examples and basics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ubuntu Setup</title>
+      <link>http://localhost:1313/SHM_SA/setup/ubuntu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/SHM_SA/setup/ubuntu/</guid>
+      <description>&lt;p&gt;Instructions for Ubuntu environment.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Vibration Analysis</title>
+      <link>http://localhost:1313/SHM_SA/examples/vibration-analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/SHM_SA/examples/vibration-analysis/</guid>
+      <description>&lt;p&gt;Basic vibration analysis workflow.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tools Needed</title>
+      <link>http://localhost:1313/SHM_SA/setup/tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/SHM_SA/setup/tools/</guid>
+      <description>&lt;p&gt;Required software tools.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

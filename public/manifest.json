@@ -1,6 +1,6 @@
 {
-  "name": "SHM ROFL Sound Analysis",
-  "short_name": "SHM ROFL Sound Analysis",
+  "name": "SHM Data",
+  "short_name": "SHM Data",
   "start_url": "/SHM_SA/",
   "scope": "/SHM_SA/",
   "display": "standalone",

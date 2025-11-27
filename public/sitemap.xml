@@ -2,6 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/SHM_SA/duckdb/convert/</loc>
+  </url><url>
+    <loc>http://localhost:1313/SHM_SA/datasets/structure/</loc>
+  </url><url>
+    <loc>http://localhost:1313/SHM_SA/mongodb/export/</loc>
+  </url><url>
+    <loc>http://localhost:1313/SHM_SA/introduction/</loc>
+  </url><url>
+    <loc>http://localhost:1313/SHM_SA/examples/spectrograms/</loc>
+  </url><url>
+    <loc>http://localhost:1313/SHM_SA/introduction/what-is-shm/</loc>
+  </url><url>
+    <loc>http://localhost:1313/SHM_SA/setup/windows/</loc>
+  </url><url>
+    <loc>http://localhost:1313/SHM_SA/datasets/monthly-overview/</loc>
+  </url><url>
+    <loc>http://localhost:1313/SHM_SA/introduction/project-overview/</loc>
+  </url><url>
+    <loc>http://localhost:1313/SHM_SA/duckdb/query-parquet/</loc>
+  </url><url>
+    <loc>http://localhost:1313/SHM_SA/mongodb/query/</loc>
+  </url><url>
+    <loc>http://localhost:1313/SHM_SA/setup/</loc>
+  </url><url>
+    <loc>http://localhost:1313/SHM_SA/setup/ubuntu/</loc>
+  </url><url>
+    <loc>http://localhost:1313/SHM_SA/examples/vibration-analysis/</loc>
+  </url><url>
+    <loc>http://localhost:1313/SHM_SA/mongodb/</loc>
+  </url><url>
+    <loc>http://localhost:1313/SHM_SA/setup/tools/</loc>
+  </url><url>
+    <loc>http://localhost:1313/SHM_SA/duckdb/</loc>
+  </url><url>
+    <loc>http://localhost:1313/SHM_SA/datasets/</loc>
+  </url><url>
+    <loc>http://localhost:1313/SHM_SA/examples/</loc>
+  </url><url>
     <loc>http://localhost:1313/SHM_SA/</loc>
     <lastmod>2025-11-27T16:19:36+01:00</lastmod>
   </url><url>

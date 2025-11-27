@@ -1,4 +1,16 @@
 baseURL = "https://medvedku.github.io/SHM_SA/"
 languageCode = 'en-us'
-title = "SHM ROFL Sound Analysis"
+title = "SHM Data"
 theme = "book"
+
+[params]
+  BookSection = "*"
+  BookRepo = "https://github.com/Medvedku/SHM_SA"
+  BookTheme = "dark"
+  BookToC = true
+  BookMenuBundle = "content"
+  BookLogo = "logo.svg"
+
+  
+  # Custom CSS
+

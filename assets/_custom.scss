@@ -1,0 +1,12 @@
+/* Resize logo in Book theme */
+.book-brand img {
+    width: 200px;
+    /* increase size */
+    height: auto;
+    /* keep aspect ratio */
+    margin-right: 10px;
+}
+
+.book-brand span {
+    display: none;
+}
