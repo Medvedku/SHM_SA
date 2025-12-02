@@ -14,7 +14,11 @@
   </url><url>
     <loc>http://localhost:1313/SHM_SA/introduction/what-is-shm/</loc>
   </url><url>
-    <loc>http://localhost:1313/SHM_SA/setup/windows/</loc>
+    <loc>http://localhost:1313/SHM_SA/jupyter/windows/</loc>
+  </url><url>
+    <loc>http://localhost:1313/SHM_SA/jupyter/</loc>
+  </url><url>
+    <loc>http://localhost:1313/SHM_SA/jupyter/jupyter/</loc>
   </url><url>
     <loc>http://localhost:1313/SHM_SA/datasets/monthly-overview/</loc>
   </url><url>
@@ -24,15 +28,13 @@
   </url><url>
     <loc>http://localhost:1313/SHM_SA/mongodb/query/</loc>
   </url><url>
-    <loc>http://localhost:1313/SHM_SA/setup/</loc>
-  </url><url>
-    <loc>http://localhost:1313/SHM_SA/setup/ubuntu/</loc>
+    <loc>http://localhost:1313/SHM_SA/jupyter/ubuntu/</loc>
   </url><url>
     <loc>http://localhost:1313/SHM_SA/examples/vibration-analysis/</loc>
   </url><url>
     <loc>http://localhost:1313/SHM_SA/mongodb/</loc>
   </url><url>
-    <loc>http://localhost:1313/SHM_SA/setup/tools/</loc>
+    <loc>http://localhost:1313/SHM_SA/jupyter/tools/</loc>
   </url><url>
     <loc>http://localhost:1313/SHM_SA/duckdb/</loc>
   </url><url>

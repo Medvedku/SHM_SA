@@ -30,6 +30,20 @@
       <description>&lt;p&gt;How to export data from MongoDB.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Installation on Ubuntu</title>
+      <link>http://localhost:1313/SHM_SA/jupyter/installation_ubuntu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/SHM_SA/jupyter/installation_ubuntu/</guid>
+      <description>&lt;h1 id=&#34;recommendation&#34;&gt;Recommendation&lt;a class=&#34;anchor&#34; href=&#34;#recommendation&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;use-jupyter-inside-visual-studio-code&#34;&gt;Use Jupyter Inside Visual Studio Code&lt;a class=&#34;anchor&#34; href=&#34;#use-jupyter-inside-visual-studio-code&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Although Jupyter Notebook works standalone, we recommend using Jupyter inside &lt;strong&gt;Visual Studio Code&lt;/strong&gt; for the best workflow.&lt;br&gt;&#xA;VS Code provides:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;native support for &lt;code&gt;.ipynb&lt;/code&gt; notebooks&lt;/li&gt;&#xA;&lt;li&gt;enhanced editing and IntelliSense&lt;/li&gt;&#xA;&lt;li&gt;integrated terminal and environment management&lt;/li&gt;&#xA;&lt;li&gt;variable explorer and data viewer&lt;/li&gt;&#xA;&lt;li&gt;improved workflows with DuckDB, Parquet, and MongoDB&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;install&#34;&gt;Install:&lt;a class=&#34;anchor&#34; href=&#34;#install&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Visual Studio Code — &lt;a href=&#34;https://code.visualstudio.com&#34;&gt;https://code.visualstudio.com&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Python Extension — &lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=ms-python.python&#34;&gt;https://marketplace.visualstudio.com/items?itemName=ms-python.python&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;After installation, open or create any &lt;code&gt;.ipynb&lt;/code&gt; file directly in VS Code.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Installation on Windows</title>
+      <link>http://localhost:1313/SHM_SA/jupyter/installation_win/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/SHM_SA/jupyter/installation_win/</guid>
+      <description>&lt;h1 id=&#34;recommendation&#34;&gt;Recommendation&lt;a class=&#34;anchor&#34; href=&#34;#recommendation&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;use-jupyter-inside-visual-studio-code&#34;&gt;Use Jupyter Inside Visual Studio Code&lt;a class=&#34;anchor&#34; href=&#34;#use-jupyter-inside-visual-studio-code&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Although Jupyter Notebook works standalone, we recommend using Jupyter inside &lt;strong&gt;Visual Studio Code&lt;/strong&gt; for the best workflow.&lt;br&gt;&#xA;VS Code provides:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;native support for &lt;code&gt;.ipynb&lt;/code&gt; notebooks&lt;/li&gt;&#xA;&lt;li&gt;enhanced editing and IntelliSense&lt;/li&gt;&#xA;&lt;li&gt;integrated terminal and environment management&lt;/li&gt;&#xA;&lt;li&gt;variable explorer and data viewer&lt;/li&gt;&#xA;&lt;li&gt;improved workflows with DuckDB, Parquet, and MongoDB&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;install&#34;&gt;Install:&lt;a class=&#34;anchor&#34; href=&#34;#install&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Visual Studio Code — &lt;a href=&#34;https://code.visualstudio.com&#34;&gt;https://code.visualstudio.com&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Python Extension — &lt;a href=&#34;https://marketplace.visualstudio.com/items?itemName=ms-python.python&#34;&gt;https://marketplace.visualstudio.com/items?itemName=ms-python.python&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;After installation, open or create any &lt;code&gt;.ipynb&lt;/code&gt; file directly in VS Code.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Spectrograms</title>
       <link>http://localhost:1313/SHM_SA/examples/spectrograms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -44,18 +58,18 @@
       <description>&lt;p&gt;Basics of Structural Health Monitoring.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Windows Setup</title>
-      <link>http://localhost:1313/SHM_SA/setup/windows/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/SHM_SA/setup/windows/</guid>
-      <description>&lt;p&gt;Instructions for Windows environment.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Monthly Overview</title>
       <link>http://localhost:1313/SHM_SA/datasets/monthly-overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/SHM_SA/datasets/monthly-overview/</guid>
       <description>&lt;p&gt;How data changes month-to-month.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>New Project Setup</title>
+      <link>http://localhost:1313/SHM_SA/jupyter/setup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/SHM_SA/jupyter/setup/</guid>
+      <description>&lt;h1 id=&#34;new-project-setup&#34;&gt;New Project Setup&lt;a class=&#34;anchor&#34; href=&#34;#new-project-setup&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;Follow these steps to create and prepare a new Python project inside &lt;strong&gt;Visual Studio Code&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-open-visual-studio-code&#34;&gt;1. Open Visual Studio Code&lt;a class=&#34;anchor&#34; href=&#34;#1-open-visual-studio-code&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Launch &lt;strong&gt;Visual Studio Code&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;Open a new window:&lt;br&gt;&#xA;&lt;strong&gt;File → New Window&lt;/strong&gt;&lt;br&gt;&#xA;or use the shortcut:&lt;br&gt;&#xA;&lt;strong&gt;Ctrl + Shift + N&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://picsum.photos/1200/800&#34;&gt;&lt;img src=&#34;https://picsum.photos/200/120&#34; alt=&#34;thumb&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;2-open-your-project-folder&#34;&gt;2. Open Your Project Folder&lt;a class=&#34;anchor&#34; href=&#34;#2-open-your-project-folder&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Inside the new VS Code window:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Go to &lt;strong&gt;File → Open Folder&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;Select a &lt;strong&gt;new empty project folder&lt;/strong&gt; or an existing &lt;strong&gt;GitHub repository folder&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;3-open-a-terminal&#34;&gt;3. Open a Terminal&lt;a class=&#34;anchor&#34; href=&#34;#3-open-a-terminal&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Open an integrated terminal:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Project Overview</title>
@@ -79,25 +93,11 @@
       <description>&lt;p&gt;Query examples and basics.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Ubuntu Setup</title>
-      <link>http://localhost:1313/SHM_SA/setup/ubuntu/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/SHM_SA/setup/ubuntu/</guid>
-      <description>&lt;p&gt;Instructions for Ubuntu environment.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Vibration Analysis</title>
       <link>http://localhost:1313/SHM_SA/examples/vibration-analysis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/SHM_SA/examples/vibration-analysis/</guid>
       <description>&lt;p&gt;Basic vibration analysis workflow.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Tools Needed</title>
-      <link>http://localhost:1313/SHM_SA/setup/tools/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/SHM_SA/setup/tools/</guid>
-      <description>&lt;p&gt;Required software tools.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,6 +1,6 @@
 +++
 title = "DuckDB"
-weight = 4
+weight = 40
 +++
 
 Working with DuckDB and Parquet.
