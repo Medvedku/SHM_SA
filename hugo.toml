@@ -7,7 +7,7 @@ theme = "book"
   BookSection = "*"
   BookRepo = "https://github.com/Medvedku/SHM_SA"
   BookTheme = "dark"
-  BookToC = true
+  BookToC = false
   BookMenuBundle = "content"
   BookLogo = "logo.svg"
 

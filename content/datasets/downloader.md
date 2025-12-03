@@ -76,28 +76,32 @@ This ensures the script works even if the folder doesn’t exist yet.
 [{{< figure src="https://rubint.sk/data/imgs/scrnshts/A_13.png" width="300" >}}](https://rubint.sk/data/imgs/scrnshts/A_13.png)
 
 ---
-
 ## 4. Load Environment Variables and Initialize the R2 Client
 
-In this step, we load the credentials stored inside the `.env` file (access key, secret key, endpoint, and bucket name).  
-These values are required to authenticate with Cloudflare R2 using its S3-compatible API.
+In this step, we load the credentials stored inside the `.env` file  
+(access key, secret key, endpoint, and bucket name), which are required to authenticate  
+with Cloudflare R2 through its S3-compatible API.
 
-We use:
+We now use an improved method:
 
-- `python-dotenv` — to load variables from the `.env` file  
-- `boto3` — Amazon’s S3 client library, which Cloudflare R2 supports fully
+- `find_dotenv()` — automatically locates the `.env` file in the current folder or any parent folder  
+- `load_dotenv()` — loads all key–value pairs into environment variables  
+- **Automatic `.env` updater** — ensures that the `DOWNLOAD_DIR` value inside `.env` always matches the actual download directory used in the notebook.  
+  This removes the need for users to manually modify `.env`.
 
-If all variables are loaded correctly, the script initializes an R2 client instance.  
-This client object will be used for listing folders, checking files, and downloading missing Parquet files.
-
+As before, `boto3` initializes the connection to Cloudflare R2 and is used later to list and download Parquet files.
 
 ```python
 import os
-from dotenv import load_dotenv
+from pathlib import Path
+from dotenv import load_dotenv, find_dotenv
 import boto3
 
-# Load environment variables from .env
-load_dotenv()
+# We already have DOWNLOAD_DIR from Cell 1
+
+# Locate and load .env (searches current dir and parent folders)
+env_file = find_dotenv()
+load_dotenv(env_file)
 
 R2_ACCESS_KEY_ID     = os.getenv("R2_ACCESS_KEY_ID")
 R2_SECRET_ACCESS_KEY = os.getenv("R2_SECRET_ACCESS_KEY")
@@ -112,8 +116,47 @@ s3 = boto3.client(
     endpoint_url=R2_ENDPOINT_URL,
 )
 
-# R2_BUCKET # Uncomment to see the bucket name
+# --- Ensure DOWNLOAD_DIR is present and correct in .env ---
+
+current_download_env = os.getenv("DOWNLOAD_DIR")
+download_dir_value = str(DOWNLOAD_DIR)
+
+env_path = Path(env_file) if env_file else Path(".env")
+
+# If DOWNLOAD_DIR is missing or outdated, update .env
+if current_download_env != download_dir_value:
+    # Read existing lines if file exists
+    if env_path.exists():
+        with open(env_path, "r") as f:
+            lines = f.readlines()
+    else:
+        lines = []
+
+    # Update existing DOWNLOAD_DIR entry
+    updated = False
+    for i, line in enumerate(lines):
+        if line.startswith("DOWNLOAD_DIR="):
+            lines[i] = f"DOWNLOAD_DIR={download_dir_value}\n"
+            updated = True
+            break
+
+    # If entry not found, append it
+    if not updated:
+        if lines and not lines[-1].endswith("\n"):
+            lines[-1] += "\n"
+        lines.append(f"DOWNLOAD_DIR={download_dir_value}\n")
+
+    # Write updated .env
+    with open(env_path, "w") as f:
+        f.writelines(lines)
+
+    print(f"DOWNLOAD_DIR written to .env as: {download_dir_value}")
+else:
+    print(f"DOWNLOAD_DIR already set in .env as: {current_download_env}")
+
+# R2_BUCKET  # Uncomment to see the bucket name
 ```
+
 
 ---
 ## 5. Helper Functions for Reading the R2 Bucket Structure

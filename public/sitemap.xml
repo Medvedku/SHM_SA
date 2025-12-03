@@ -8,19 +8,19 @@
   </url><url>
     <loc>http://localhost:1313/SHM_SA/mongodb/export/</loc>
   </url><url>
+    <loc>http://localhost:1313/SHM_SA/jupyter/installation_ubuntu/</loc>
+  </url><url>
+    <loc>http://localhost:1313/SHM_SA/jupyter/installation_win/</loc>
+  </url><url>
     <loc>http://localhost:1313/SHM_SA/introduction/</loc>
   </url><url>
     <loc>http://localhost:1313/SHM_SA/examples/spectrograms/</loc>
   </url><url>
     <loc>http://localhost:1313/SHM_SA/introduction/what-is-shm/</loc>
   </url><url>
-    <loc>http://localhost:1313/SHM_SA/jupyter/windows/</loc>
-  </url><url>
     <loc>http://localhost:1313/SHM_SA/jupyter/</loc>
   </url><url>
-    <loc>http://localhost:1313/SHM_SA/jupyter/jupyter/</loc>
-  </url><url>
-    <loc>http://localhost:1313/SHM_SA/datasets/monthly-overview/</loc>
+    <loc>http://localhost:1313/SHM_SA/jupyter/setup/</loc>
   </url><url>
     <loc>http://localhost:1313/SHM_SA/introduction/project-overview/</loc>
   </url><url>
@@ -28,17 +28,15 @@
   </url><url>
     <loc>http://localhost:1313/SHM_SA/mongodb/query/</loc>
   </url><url>
-    <loc>http://localhost:1313/SHM_SA/jupyter/ubuntu/</loc>
+    <loc>http://localhost:1313/SHM_SA/datasets/downloader/</loc>
   </url><url>
     <loc>http://localhost:1313/SHM_SA/examples/vibration-analysis/</loc>
   </url><url>
+    <loc>http://localhost:1313/SHM_SA/datasets/</loc>
+  </url><url>
     <loc>http://localhost:1313/SHM_SA/mongodb/</loc>
   </url><url>
-    <loc>http://localhost:1313/SHM_SA/jupyter/tools/</loc>
-  </url><url>
     <loc>http://localhost:1313/SHM_SA/duckdb/</loc>
-  </url><url>
-    <loc>http://localhost:1313/SHM_SA/datasets/</loc>
   </url><url>
     <loc>http://localhost:1313/SHM_SA/examples/</loc>
   </url><url>
