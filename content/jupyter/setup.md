@@ -17,8 +17,6 @@ Follow these steps to create and prepare a new Python project inside **Visual St
   or use the shortcut:  
   **Ctrl + Shift + N**
 
-[![thumb](https://picsum.photos/200/120)](https://picsum.photos/1200/800)
-
 
 
 ---
@@ -148,6 +146,8 @@ Use the `!` prefix to execute installation commands:
 {{% /tab %}}
 
 {{< /tabs >}}
+
+[{{< figure src="https://rubint.sk/data/imgs/scrnshts/A_11.png" width="300" >}}](https://rubint.sk/data/imgs/scrnshts/A_11.png)
 
 ---
 ---

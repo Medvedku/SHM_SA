@@ -16,11 +16,11 @@
       <description>&lt;p&gt;Converting Mongo JSON/BSON to Parquet.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Dataset Structure</title>
+      <title>Environmental Variables</title>
       <link>http://localhost:1313/SHM_SA/datasets/structure/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/SHM_SA/datasets/structure/</guid>
-      <description>&lt;p&gt;Overview of monthly dataset contents.&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;environmental-variables&#34;&gt;Environmental Variables&lt;a class=&#34;anchor&#34; href=&#34;#environmental-variables&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;When working with cloud storage, APIs, or databases, it is considered good practice &lt;strong&gt;not to hard-code credentials&lt;/strong&gt; directly into scripts.&lt;br&gt;&#xA;Instead, sensitive values (API keys, endpoints, bucket names, tokens, etc.) should be stored in a dedicated file called &lt;strong&gt;&lt;code&gt;.env&lt;/code&gt;&lt;/strong&gt;.&lt;br&gt;&#xA;This file contains key–value pairs that your application can load at runtime, keeping credentials out of source code and version control.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;example-env-file&#34;&gt;Example &lt;code&gt;.env&lt;/code&gt; File&lt;a class=&#34;anchor&#34; href=&#34;#example-env-file&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Below is an example of how your &lt;code&gt;.env&lt;/code&gt; file may look.&lt;br&gt;&#xA;Only the bucket name is real — &lt;strong&gt;you must replace the access key, secret key, and endpoint with your own values&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Exporting Data</title>
@@ -58,18 +58,11 @@
       <description>&lt;p&gt;Basics of Structural Health Monitoring.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Monthly Overview</title>
-      <link>http://localhost:1313/SHM_SA/datasets/monthly-overview/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/SHM_SA/datasets/monthly-overview/</guid>
-      <description>&lt;p&gt;How data changes month-to-month.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>New Project Setup</title>
       <link>http://localhost:1313/SHM_SA/jupyter/setup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/SHM_SA/jupyter/setup/</guid>
-      <description>&lt;h1 id=&#34;new-project-setup&#34;&gt;New Project Setup&lt;a class=&#34;anchor&#34; href=&#34;#new-project-setup&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;Follow these steps to create and prepare a new Python project inside &lt;strong&gt;Visual Studio Code&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-open-visual-studio-code&#34;&gt;1. Open Visual Studio Code&lt;a class=&#34;anchor&#34; href=&#34;#1-open-visual-studio-code&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Launch &lt;strong&gt;Visual Studio Code&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;Open a new window:&lt;br&gt;&#xA;&lt;strong&gt;File → New Window&lt;/strong&gt;&lt;br&gt;&#xA;or use the shortcut:&lt;br&gt;&#xA;&lt;strong&gt;Ctrl + Shift + N&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://picsum.photos/1200/800&#34;&gt;&lt;img src=&#34;https://picsum.photos/200/120&#34; alt=&#34;thumb&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;2-open-your-project-folder&#34;&gt;2. Open Your Project Folder&lt;a class=&#34;anchor&#34; href=&#34;#2-open-your-project-folder&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Inside the new VS Code window:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Go to &lt;strong&gt;File → Open Folder&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;Select a &lt;strong&gt;new empty project folder&lt;/strong&gt; or an existing &lt;strong&gt;GitHub repository folder&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;3-open-a-terminal&#34;&gt;3. Open a Terminal&lt;a class=&#34;anchor&#34; href=&#34;#3-open-a-terminal&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Open an integrated terminal:&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;new-project-setup&#34;&gt;New Project Setup&lt;a class=&#34;anchor&#34; href=&#34;#new-project-setup&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;Follow these steps to create and prepare a new Python project inside &lt;strong&gt;Visual Studio Code&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-open-visual-studio-code&#34;&gt;1. Open Visual Studio Code&lt;a class=&#34;anchor&#34; href=&#34;#1-open-visual-studio-code&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Launch &lt;strong&gt;Visual Studio Code&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;Open a new window:&lt;br&gt;&#xA;&lt;strong&gt;File → New Window&lt;/strong&gt;&lt;br&gt;&#xA;or use the shortcut:&lt;br&gt;&#xA;&lt;strong&gt;Ctrl + Shift + N&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;2-open-your-project-folder&#34;&gt;2. Open Your Project Folder&lt;a class=&#34;anchor&#34; href=&#34;#2-open-your-project-folder&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Inside the new VS Code window:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Go to &lt;strong&gt;File → Open Folder&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;Select a &lt;strong&gt;new empty project folder&lt;/strong&gt; or an existing &lt;strong&gt;GitHub repository folder&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;3-open-a-terminal&#34;&gt;3. Open a Terminal&lt;a class=&#34;anchor&#34; href=&#34;#3-open-a-terminal&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Open an integrated terminal:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Project Overview</title>
@@ -91,6 +84,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/SHM_SA/mongodb/query/</guid>
       <description>&lt;p&gt;Query examples and basics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Script – Downloader</title>
+      <link>http://localhost:1313/SHM_SA/datasets/downloader/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/SHM_SA/datasets/downloader/</guid>
+      <description>&lt;h1 id=&#34;downloader-script&#34;&gt;Downloader Script&lt;a class=&#34;anchor&#34; href=&#34;#downloader-script&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;This section introduces the downloader script that will automatically fetch newly uploaded Parquet files from the R2 bucket.&lt;br&gt;&#xA;It ensures your local dataset stays synchronized with the cloud dataset without manually checking which files are missing.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-create-a-download-folder&#34;&gt;1. Create a Download Folder&lt;a class=&#34;anchor&#34; href=&#34;#1-create-a-download-folder&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Before writing the script, choose where the downloaded Parquet files will be stored.&lt;/p&gt;&#xA;&lt;p&gt;You can place the folder &lt;em&gt;anywhere&lt;/em&gt; on your system, but the most common setup is:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Vibration Analysis</title>
