@@ -9,7 +9,7 @@ weight = 2
 Before running any analysis, you need to create the script file within your environment.
 1. In **Spyder**, right-click anywhere within the Project Tree.
 2. Select `New` -> `Python file...`.
-3. Select module name and click `OK` to confirm. {{< figure src="/SHM_SA/C_spyder/C02.png" link="/SHM_SA/C_spyder/C02.png" width="400">}}
+3. Select module name and click `OK` to confirm. {{< figure src="/SHM_SA/C_spyder/C02.png" link="/SHM_SA/C_spyder/C02.png" width="700">}}
 4. At the very top of your file, ensure the encoding and header are set:
 ```python
 # -*- coding: utf-8 -*-

@@ -22,7 +22,7 @@ Spyder uses a "Project" system to manage files, similar to a Workspace in VS Cod
 1. In the top menu, go to `Projects` → `New Project...`
 2. In the popup window, select `Existing directory`.
 3. Browse to and select the path of your cloned repository.
-{{< figure src="/SHM_SA/C_spyder/C01.png" link="/SHM_SA/C_spyder/C01.png" width="400" title="Selecting an existing directory in Spyder" >}}
+{{< figure src="/SHM_SA/C_spyder/C01.png" link="/SHM_SA/C_spyder/C01.png" width="700" title="Selecting an existing directory in Spyder" >}}
 4. Click `Create`.
 
 ### 3. Project Interface
