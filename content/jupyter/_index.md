@@ -1,6 +1,6 @@
 +++
 title = "Jupyter"
-weight = 2
+weight = 3
 bookToC = true
 +++
 
