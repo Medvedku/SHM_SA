@@ -13,5 +13,3 @@ What you'll find here:
 - A short Spyder-focused example showing how to open, inspect and save Parquet data (`content/spyder/_index.md`).
 
 Goal: make Parquet files approachable — think of them as compact, fast spreadsheets you can load, inspect, filter, and save with a few lines of Python.
-
-If you want, I can add a tiny sample Parquet dataset and a guided walkthrough (step-by-step) that your professor can run on his machine.
